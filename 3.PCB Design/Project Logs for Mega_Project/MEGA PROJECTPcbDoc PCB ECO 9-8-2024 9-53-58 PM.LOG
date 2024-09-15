@@ -1,0 +1,249 @@
+Added Component: Designator=*(REG)
+Added Component: Designator=C1(CAP)
+Added Component: Designator=C2(CAP)
+Added Component: Designator=C3(CAP)
+Added Component: Designator=C4(CAP)
+Added Component: Designator=C5(CAP)
+Added Component: Designator=C6(CAP)
+Added Component: Designator=D1(LED WHITE)
+Added Component: Designator=D2(LED WHITE)
+Added Component: Designator=D3(LED WHITE)
+Added Component: Designator=D4(LED WHITE)
+Added Component: Designator=D(RGB)
+Add component (AddParameter): Name = "MF"; Value = "OptoSupply"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RGB SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://makerselectronics.com/product/rgb-smd-led-0603-common-cathode"; VariantName = "[No Variations]"
+Added Component: Designator=J1(691214110002)
+Add component (AddParameter): Name = "Color"; Value = "Blue, Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Brass, Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "3.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "18818288"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Levels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions Per Level"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "3.5052mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Brass, Steel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stripping Length"; Value = "-6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Screw"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "300V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "300V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "7.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire Gauge (Max)"; Value = "24AWG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire Gauge (Min)"; Value = "16AWG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire/Cable Gauge"; Value = "24AWG"; VariantName = "[No Variations]"
+Added Component: Designator=J2(10 PIN)
+Added Component: Designator=J3(691214110002)
+Add component (AddParameter): Name = "Color"; Value = "Blue, Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Brass, Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "3.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "18818288"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Levels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions Per Level"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "3.5052mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Brass, Steel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stripping Length"; Value = "-6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Screw"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "300V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "300V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "7.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire Gauge (Max)"; Value = "24AWG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire Gauge (Min)"; Value = "16AWG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire/Cable Gauge"; Value = "24AWG"; VariantName = "[No Variations]"
+Added Component: Designator=Keypad(8 PIN)
+Added Component: Designator=LDR(3 PIN)
+Added Component: Designator=NTC(3 PIN)
+Added Component: Designator=PIR(3 PIN)
+Added Component: Designator=R1(RES)
+Added Component: Designator=R2(RES)
+Added Component: Designator=R3(RES)
+Added Component: Designator=SERVO(3 PIN)
+Added Component: Designator=U1(ATMEGA8A)
+Add component (AddParameter): Name = "MF"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ATMEGA8A-AU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://makerselectronics.com/product/atmega8a-au-8-bit-avr-microcontroller-8kb-1kb-flash-23-2-7v5-5v-avr-16mhz-tqfp-32"; VariantName = "[No Variations]"
+Added Component: Designator=U2(L293D)
+Add component (AddParameter): Name = "MF"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "L293D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://makerselectronics.com/product/l293d-quadruple-half-h-driver-dip-16"; VariantName = "[No Variations]"
+Added Component: Designator=Y(Crystil)
+Add component (AddParameter): Name = "Link"; Value = "https://makerselectronics.com/product/crystal-16-000mhz-49s-20ppm-20pf-40%cf%89"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ECS Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ECS-160-S-4"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=*-3
+Added Pin To Net: NetName=+5 Pin=C2-2
+Added Pin To Net: NetName=+5 Pin=C3-2
+Added Pin To Net: NetName=+5 Pin=C4-2
+Added Pin To Net: NetName=+5 Pin=D-1
+Added Pin To Net: NetName=+5 Pin=D1-A
+Added Pin To Net: NetName=+5 Pin=D2-A
+Added Pin To Net: NetName=+5 Pin=D3-A
+Added Pin To Net: NetName=+5 Pin=D4-A
+Added Pin To Net: NetName=+5 Pin=J2-02
+Added Pin To Net: NetName=+5 Pin=LDR-01
+Added Pin To Net: NetName=+5 Pin=NTC-01
+Added Pin To Net: NetName=+5 Pin=PIR-01
+Added Pin To Net: NetName=+5 Pin=SERVO-01
+Added Pin To Net: NetName=+5 Pin=U1-4
+Added Pin To Net: NetName=+5 Pin=U1-6
+Added Pin To Net: NetName=+5 Pin=U2-1
+Added Pin To Net: NetName=+5 Pin=U2-8
+Added Pin To Net: NetName=+5 Pin=U2-9
+Added Pin To Net: NetName=+5 Pin=U2-16
+Added Net: Name=+5
+Added Pin To Net: NetName=GND Pin=*-2
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=J2-04
+Added Pin To Net: NetName=GND Pin=J2-06
+Added Pin To Net: NetName=GND Pin=J2-08
+Added Pin To Net: NetName=GND Pin=J2-10
+Added Pin To Net: NetName=GND Pin=LDR-02
+Added Pin To Net: NetName=GND Pin=NTC-02
+Added Pin To Net: NetName=GND Pin=PIR-03
+Added Pin To Net: NetName=GND Pin=SERVO-02
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=GND Pin=U1-21
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=GND Pin=U2-5
+Added Pin To Net: NetName=GND Pin=U2-12
+Added Pin To Net: NetName=GND Pin=U2-13
+Added Net: Name=GND
+Added Pin To Net: NetName=INP1 Pin=U1-24
+Added Pin To Net: NetName=INP1 Pin=U2-2
+Added Net: Name=INP1
+Added Pin To Net: NetName=INP2 Pin=U1-23
+Added Pin To Net: NetName=INP2 Pin=U2-7
+Added Net: Name=INP2
+Added Pin To Net: NetName=INP3 Pin=U1-25
+Added Pin To Net: NetName=INP3 Pin=U2-10
+Added Net: Name=INP3
+Added Pin To Net: NetName=INP4 Pin=U1-26
+Added Pin To Net: NetName=INP4 Pin=U2-15
+Added Net: Name=INP4
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=NetC5_2 Pin=U1-7
+Added Pin To Net: NetName=NetC5_2 Pin=Y-2
+Added Net: Name=NetC5_2
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=NetC6_2 Pin=U1-8
+Added Pin To Net: NetName=NetC6_2 Pin=Y-1
+Added Net: Name=NetC6_2
+Added Pin To Net: NetName=NetD1_C Pin=D1-C
+Added Pin To Net: NetName=NetD1_C Pin=D2-C
+Added Pin To Net: NetName=NetD1_C Pin=D3-C
+Added Pin To Net: NetName=NetD1_C Pin=D4-C
+Added Pin To Net: NetName=NetD1_C Pin=U1-19
+Added Net: Name=NetD1_C
+Added Pin To Net: NetName=NetD_2 Pin=D-2
+Added Pin To Net: NetName=NetD_2 Pin=R3-1
+Added Net: Name=NetD_2
+Added Pin To Net: NetName=NetD_3 Pin=D-3
+Added Pin To Net: NetName=NetD_3 Pin=R1-1
+Added Net: Name=NetD_3
+Added Pin To Net: NetName=NetD_4 Pin=D-4
+Added Pin To Net: NetName=NetD_4 Pin=R2-1
+Added Net: Name=NetD_4
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=U2-6
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_2 Pin=U2-3
+Added Net: Name=NetJ1_2
+Added Pin To Net: NetName=NetJ2_01 Pin=J2-01
+Added Pin To Net: NetName=NetJ2_01 Pin=U1-15
+Added Net: Name=NetJ2_01
+Added Pin To Net: NetName=NetJ2_03 Pin=J2-03
+Added Net: Name=NetJ2_03
+Added Pin To Net: NetName=NetJ2_07 Pin=J2-07
+Added Pin To Net: NetName=NetJ2_07 Pin=R3-2
+Added Pin To Net: NetName=NetJ2_07 Pin=U1-17
+Added Net: Name=NetJ2_07
+Added Pin To Net: NetName=NetJ2_09 Pin=J2-09
+Added Pin To Net: NetName=NetJ2_09 Pin=SERVO-03
+Added Pin To Net: NetName=NetJ2_09 Pin=U1-16
+Added Net: Name=NetJ2_09
+Added Pin To Net: NetName=NetJ3_1 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_1 Pin=U2-14
+Added Net: Name=NetJ3_1
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_2 Pin=U2-11
+Added Net: Name=NetJ3_2
+Added Pin To Net: NetName=NetLDR_03 Pin=LDR-03
+Added Pin To Net: NetName=NetLDR_03 Pin=U1-30
+Added Net: Name=NetLDR_03
+Added Pin To Net: NetName=NetNTC_03 Pin=NTC-03
+Added Pin To Net: NetName=NetNTC_03 Pin=U1-31
+Added Net: Name=NetNTC_03
+Added Pin To Net: NetName=NetPIR_02 Pin=PIR-02
+Added Pin To Net: NetName=NetPIR_02 Pin=U1-32
+Added Net: Name=NetPIR_02
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=U1-13
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=U1-14
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=P1 Pin=Keypad-08
+Added Pin To Net: NetName=P1 Pin=U1-1
+Added Net: Name=P1
+Added Pin To Net: NetName=P2 Pin=Keypad-07
+Added Pin To Net: NetName=P2 Pin=U1-2
+Added Net: Name=P2
+Added Pin To Net: NetName=P3 Pin=J2-05
+Added Pin To Net: NetName=P3 Pin=Keypad-06
+Added Pin To Net: NetName=P3 Pin=U1-29
+Added Net: Name=P3
+Added Pin To Net: NetName=P4 Pin=Keypad-05
+Added Pin To Net: NetName=P4 Pin=U1-28
+Added Net: Name=P4
+Added Pin To Net: NetName=P5 Pin=Keypad-04
+Added Pin To Net: NetName=P5 Pin=U1-27
+Added Net: Name=P5
+Added Pin To Net: NetName=P6 Pin=Keypad-03
+Added Pin To Net: NetName=P6 Pin=U1-9
+Added Net: Name=P6
+Added Pin To Net: NetName=P7 Pin=Keypad-02
+Added Pin To Net: NetName=P7 Pin=U1-10
+Added Net: Name=P7
+Added Pin To Net: NetName=P8 Pin=Keypad-01
+Added Pin To Net: NetName=P8 Pin=U1-11
+Added Net: Name=P8
+Added Pin To Net: NetName=VCC Pin=*-1
+Added Pin To Net: NetName=VCC Pin=C1-1
+Added Net: Name=VCC
+Added Class: Name=MEGA PROJECT
+Added Room: Name=MEGA PROJECT

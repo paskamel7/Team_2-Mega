@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/faceRec.css') }}">
+</head>
+<body>  
+    <div class="content">
+        <div class="head"></div>
+        <div class="faceRec">
+            <video id="webcam" autoplay class="hide"></video>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="buttons">
+            <input type="submit" id="face" value="Start Camera">
+            <input type="submit" id="menubtn" value="Menu"> 
+            <input type="password" id="menupass" class="hide" placeholder="password">
+          
+            <div id="menu" class="hide ">  <!-- Dropdown Menu -->
+                <!-- Change password form -->
+                <input type="submit" id="changePass" value="Change Password">
+                <div id="change" class="hide" style="background-color: rgba(0, 0, 0, 0.363);">
+                    <h3 style="color: aliceblue;">Change Password</h3>
+                    
+                    <input type="password" id="newPass" placeholder="New Password">
+                    <div class="accept">
+                        <button id="confirm">Confirm</button>
+                        <button id="cancel">Cancel</button>
+                    </div>
+                </div>
+                <!-- Add and Delete buttons -->
+                <button id="addUserBtn">Add User</button>
+                <div id="addUser" class="hide" style="background-color: rgba(0, 0, 0, 0.363);">
+                    <h3 style="color: aliceblue;">Add New User</h3>
+                    <input type="text" id="userName" placeholder="Enter Name" name="name">
+                    <input type="file" id="userImage"  name="image">
+                    <div class="accept">               
+                        <button id="submitUser">Submit</button>
+                        <button id="cancelUser">Cancel</button>
+                    </div>
+     
+                </div>
+                <button id="deleteUserBtn">Delete User</button>
+                <div id="deleteUserDiv" class="hide" style="background-color: rgba(0, 0, 0, 0.363);">
+                    <h3 style="color: aliceblue;">Delete User</h3>
+                    <input type="text" id="deleteUserName" placeholder="Enter User Name to Delete">
+                    <div class="accept">
+                        <button id="confirmDelete">Confirm</button>
+                        <button id="cancelDelete">Cancel</button>
+                    </div>
+                   
+                </div>
+            </div>
+            <input class="hide" type="password" id="enterPass" placeholder="Enter Password">
+            <p id="validPass"></p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/faceRec.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owners</title>
+    <style>
+        body{
+            background-image: url('/static/css/owner.jpg');
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-position: center;
+
+        }
+        .owner{
+            width:100% ;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+       img{
+        background:rgba(0, 0, 255, 0.397);
+        width: 60%;
+        height: 50%;
+        border: 3px solid rgba(255, 255, 255, 0.445); 
+        border-radius: 8px;
+       }
+
+input,
+button {
+    border-radius: 12px;
+    border: 2px solid rgb(9, 9, 76);  /* Add a solid border */
+    margin: 10px;
+    background: linear-gradient(135deg, rgb(9, 9, 76), rgb(14, 14, 100));  /* Gradient background for a modern look */
+    color: bisque;
+    font-weight: bold;
+     width: 100%;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;  /* Increase button font size */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);  /* Add a shadow for depth */
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+h1{
+    color: aliceblue;
+}
+input:hover,
+button:hover {
+    background: linear-gradient(135deg, rgba(9, 9, 76, 0.8), rgba(240, 248, 255, 0.7));  /* Lighter hover effect */
+    color: white;
+    transform: translateY(-3px);  /* Slight movement on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);  /* More pronounced shadow */
+}
+.buttons{
+    width:60% ;
+    margin: 10px;
+}
+#add-and-open-form , #open{
+    margin-top: 10px;
+    border: 4px solid rgba(255, 255, 255, 0.87);
+    background:rgba(0, 0, 255, 0.397);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#add-and-open-form input,#add-and-open-form button{
+    width: 90%;
+    padding: auto;
+   
+   
+}
+
+#open button{
+    width: 90%;
+    padding: auto;
+    
+   
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="owner">
+        <h1>Homeowners</h1>
+        {% if src %}
+            <img src="{{ url_for('static', filename=src) }}" alt="Image" id="img"/>
+        {% endif %}
+    <div class="buttons">
+          <!-- Form to handle "Open" button -->
+          <form action="/decision-action" method="POST" id="open">
+            <input type="hidden" name="img_path" value="{{ src }}" />
+            <input type="hidden" name="action" value="open"  id="open"/>
+            <button type="submit">Open</button>
+        </form>
+    
+        <!-- Form to handle "Open and Add" button -->
+        <form id="add-and-open-form" >
+            <input type="hidden" name="img_path" value="{{ src }}" />
+            <input type="hidden" name="action" value="add_and_open" />
+           
+            <input type="text" id="name" name="name" required placeholder="Name" />
+            <button type="button" id="save">Open and Add</button>
+        </form>
+    </div>
+      
+    
+    </div>
+ 
+    <script>
+    document.getElementById('save').onclick = function() {
+        let form = document.getElementById('add-and-open-form');
+        let formData = new FormData(form);
+
+        fetch('/decision-action', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.message) {
+                console.log(data.message);  // Handle the server response
+                alert(data.message);
+            } else if (data.error) {
+                console.error('Error:', data.error);
+                alert('Error: ' + data.error);
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Network error.');
+        });
+    }
+</script>
+
+</body>
+</html>

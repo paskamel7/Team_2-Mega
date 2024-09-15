@@ -1,0 +1,53 @@
+Removed Pin From Net: NetName=P3 Pin=J2-05
+Removed Pin From Net: NetName=NetJ2_07 Pin=J2-07
+Removed Pin From Net: NetName=NetLDR_03 Pin=LDR-03
+Removed Pin From Net: NetName=NetNTC_03 Pin=NTC-03
+Removed Pin From Net: NetName=NetPIR_02 Pin=PIR-02
+Removed Pin From Net: NetName=NetJ2_07 Pin=R3-2
+Removed Pin From Net: NetName=P1 Pin=U1-1
+Removed Pin From Net: NetName=P2 Pin=U1-2
+Removed Pin From Net: NetName=P6 Pin=U1-9
+Removed Pin From Net: NetName=P7 Pin=U1-10
+Removed Pin From Net: NetName=P8 Pin=U1-11
+Removed Pin From Net: NetName=NetJ2_07 Pin=U1-17
+Removed Pin From Net: NetName=NetD1_C Pin=U1-19
+Removed Pin From Net: NetName=INP2 Pin=U1-23
+Removed Pin From Net: NetName=INP1 Pin=U1-24
+Removed Pin From Net: NetName=INP3 Pin=U1-25
+Removed Pin From Net: NetName=INP4 Pin=U1-26
+Removed Pin From Net: NetName=P3 Pin=U1-29
+Removed Pin From Net: NetName=NetLDR_03 Pin=U1-30
+Removed Pin From Net: NetName=NetNTC_03 Pin=U1-31
+Removed Pin From Net: NetName=NetPIR_02 Pin=U1-32
+Change Component Footprint: Designator=J1 Old Footprint=691214110002 New Footprint=691214110002
+Change Component Footprint: Designator=J3 Old Footprint=691214110002 New Footprint=691214110002
+Change Component Designator: OldDesignator=L293D NewDesignator=U2
+Change Component Designator: OldDesignator=REG NewDesignator=*
+Change Component Designator: OldDesignator=RGB NewDesignator=D
+Added Pin To Net: NetName=NetNTC_03 Pin=J2-05
+Added Pin To Net: NetName=NetD1_C Pin=J2-07
+Added Pin To Net: NetName=NetPIR_02 Pin=LDR-03
+Added Pin To Net: NetName=NetLDR_03 Pin=NTC-03
+Added Pin To Net: NetName=NetJ2_07 Pin=PIR-02
+Added Pin To Net: NetName=NetJ2_01 Pin=R3-2
+Added Pin To Net: NetName=NetJ2_07 Pin=U1-1
+Added Pin To Net: NetName=NetLDR_03 Pin=U1-2
+Added Pin To Net: NetName=INP1 Pin=U1-9
+Added Pin To Net: NetName=INP2 Pin=U1-10
+Added Pin To Net: NetName=INP3 Pin=U1-11
+Added Pin To Net: NetName=INP4 Pin=U1-12
+Added Pin To Net: NetName=NetD1_C Pin=U1-17
+Added Pin To Net: NetName=NetPIR_02 Pin=U1-23
+Added Pin To Net: NetName=P8 Pin=U1-24
+Added Pin To Net: NetName=P7 Pin=U1-25
+Added Pin To Net: NetName=P6 Pin=U1-26
+Added Pin To Net: NetName=NetNTC_03 Pin=U1-29
+Added Pin To Net: NetName=P3 Pin=U1-30
+Added Pin To Net: NetName=P2 Pin=U1-31
+Added Pin To Net: NetName=P1 Pin=U1-32
+Change Net Name : Old Net Name=NetD1_C New Net Name=PB5
+Change Net Name : Old Net Name=NetJ2_07 New Net Name=PIR
+Change Net Name : Old Net Name=NetLDR_03 New Net Name=NTC
+Change Net Name : Old Net Name=NetNTC_03 New Net Name=NetJ2_05
+Change Net Name : Old Net Name=NetPIR_02 New Net Name=LDR
+Added Room: Name=MEGA PROJECT
